@@ -1,5 +1,9 @@
 body{
     margin: 7px 10px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.head-size{
+    font-size: 40px;
 }
 .btn{
     text-decoration: none;
@@ -23,7 +27,7 @@ body{
     width: 183px;
 } */
 .banner{
-    background-image: url(./images/banner-bg.jpg);
+    background-image:linear-gradient(to right,rgba(0,0,0,0.5),rgba(0,0,20,0.5)),url(./images/banner-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 420px;
@@ -129,7 +133,7 @@ body{
 }
 .donate-img{
     padding: 0;
-    height: 170px;
+    height: 100%;
     width: 100%;
 }
 .one-third-width{
@@ -165,3 +169,34 @@ body{
     display: flex;
     justify-content: space-evenly;
 }
+.donate-cards .cards .card-1{
+    height: 350px;
+}
+.donate-cards .cards .card-2{
+    height: 350px;
+}
+.donate-cards .cards .card-3{
+    height: 350px;
+}
+
+.donate-cards .cards .card-1 a{
+   text-decoration: underline;
+   color: tomato;
+}
+.donate-cards .cards .card-2 a{
+    text-decoration: underline;
+   color: tomato;
+}
+.donate-cards .cards .card-3 a{
+    text-decoration: underline;
+   color: tomato;
+}
+
+footer{
+    text-align: center;
+    padding: 10px 10px;
+    height: 120px;
+    background-color: black;
+    color: white;
+}
+
